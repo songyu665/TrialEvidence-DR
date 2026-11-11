@@ -1,0 +1,40 @@
+{
+  "sources": [
+    {
+      "name": "ClinicalTrials.gov_API_v2",
+      "url": "https://clinicaltrials.gov/api/v2/studies?pageSize=1&format=json&countTotal=true",
+      "method": "GET",
+      "role": "trial_records"
+    },
+    {
+      "name": "PrimeKG_Dataverse_metadata",
+      "url": "https://dataverse.harvard.edu/api/datasets/:persistentId?persistentId=doi:10.7910/DVN/IXA7BM",
+      "method": "GET",
+      "role": "knowledge_graph"
+    },
+    {
+      "name": "Hetionet_v1_json_bz2",
+      "url": "https://raw.githubusercontent.com/hetio/hetionet/main/hetnet/json/hetionet-v1.0.json.bz2",
+      "method": "HEAD",
+      "role": "knowledge_graph"
+    },
+    {
+      "name": "DrugCentral_download_page",
+      "url": "https://drugcentral.org/download",
+      "method": "GET",
+      "role": "approved_indications"
+    },
+    {
+      "name": "ChEMBL_drug_indication_API",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json?limit=1",
+      "method": "GET",
+      "role": "approved_indications_with_mesh_efo_and_source_refs"
+    },
+    {
+      "name": "AACT_landing",
+      "url": "https://aact.ctti-clinicaltrials.org/",
+      "method": "GET",
+      "role": "trial_database"
+    }
+  ]
+}

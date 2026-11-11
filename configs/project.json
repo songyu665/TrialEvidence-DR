@@ -1,0 +1,14 @@
+{
+  "project": "TrialEvidence-DR",
+  "protocol_version": "V3",
+  "status": "E0_not_frozen",
+  "training_evidence_cutoff_candidate": "2023-12-31",
+  "primary_comparison": "PNU_vs_nnPU",
+  "primary_metric": "macro_auprc",
+  "e0_project_management_gate": {
+    "minimum_evaluable_indications": 10,
+    "minimum_independent_n_strict_pairs": 200
+  },
+  "time_validation_enabled_before_history_audit": false,
+  "random_seed": 20261110
+}
