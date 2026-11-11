@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using this metadata."
+title: "TrialEvidence-DR: Reproducible clinical-trial evidence auditing for drug repurposing"
+type: software
+license: MIT
+version: 0.1.0
+date-released: 2026-11-11
+authors:
+  - name: "TrialEvidence-DR authors"
+keywords:
+  - drug repurposing
+  - clinical trials
+  - data quality
+  - selection bias
+  - knowledge graphs

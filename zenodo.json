@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "title": "TrialEvidence-DR: Reproducible clinical-trial evidence auditing for drug repurposing",
+    "upload_type": "software",
+    "description": "Reproducible code for clinical-trial evidence-label auditing, drug–disease mapping, selection-bias analysis, historical recoverability, and later-evidence ranking. Rule-based evidence labels are not clinical gold standards.",
+    "creators": [
+      {
+        "name": "TrialEvidence-DR authors"
+      }
+    ],
+    "license": "MIT",
+    "keywords": [
+      "drug repurposing",
+      "clinical trials",
+      "data quality",
+      "selection bias",
+      "knowledge graphs"
+    ],
+    "access_right": "open"
+  }
+}
