@@ -2,6 +2,8 @@
 
 Reproducible code for auditing clinical-trial evidence labels, drug–disease mapping, selection bias, historical recoverability, and later-evidence ranking.
 
+Public repository: https://github.com/songyu665/TrialEvidence-DR
+
 ## Requirements
 
 - Python 3.12
@@ -33,7 +35,7 @@ After restoring the documented raw data layout:
 .venv/bin/python scripts/reproduce_analysis.py
 ```
 
-The script reruns the main analyses without redownloading and compares table hashes. Date-valued audit fields and floating-point tolerance are documented in `reports/reproducibility_rerun.json`.
+The script reruns the main analyses without redownloading and compares table hashes. It writes `reports/reproducibility_rerun.json` and `runs/reproducibility_rerun.log`; these generated outputs are not included in this code-only repository.
 
 ## Evidence boundaries
 

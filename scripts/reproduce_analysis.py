@@ -52,13 +52,15 @@ def hashes() -> dict[str, str]:
 
 def main() -> None:
     before = hashes()
+    (ROOT / "runs").mkdir(parents=True, exist_ok=True)
+    (ROOT / "reports").mkdir(parents=True, exist_ok=True)
     log_path = ROOT / "runs" / "reproducibility_rerun.log"
     with log_path.open("w", encoding="utf-8") as log:
         for script in SCRIPTS:
             log.write(f"START {script}\n")
             log.flush()
             process = subprocess.run(
-                [str(ROOT / "venv_trialevidence_dr" / "bin" / "python"), str(ROOT / "scripts" / script)],
+                [sys.executable, str(ROOT / "scripts" / script)],
                 cwd=ROOT, stdout=log, stderr=subprocess.STDOUT, timeout=900, check=False,
             )
             log.write(f"END {script} exit={process.returncode}\n")

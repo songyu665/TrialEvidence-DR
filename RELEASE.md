@@ -18,7 +18,8 @@
 
 ## Current status
 
-- MIT license: prepared
-- GitHub repository: not yet created
-- Zenodo archive and DOI: not yet created
-- Actual public upload: not performed
+- MIT license: published
+- GitHub repository: https://github.com/songyu665/TrialEvidence-DR
+- Version tag and GitHub Release: `v0.1.0`
+- Zenodo archive and DOI: pending
+- Public source upload: completed
