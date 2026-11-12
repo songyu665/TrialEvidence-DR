@@ -1,11 +1,10 @@
 {
   "files": {
     ".gitignore": "38404e2bed7a46a177aa115701b2deef7570a305e8bfaa41a9f3e39580f839e8",
-    "CITATION.cff": "54dadf8a6f9ba7f732a72812f902cebc670022000dabf72560b9aca7c97c683a",
+    "CITATION.cff": "d70931d7320156d7143d6e3adc91331d43e8790a3b5913522e54ba1cb5ffde51",
     "LICENSE": "cced3ca4f5cd8f9b52687176311ae3f3b85bb0ab848b40f7b9df4ada062b4096",
-    "README.md": "d10a70bcddf47b2c82f504eea881bd7a66019b676039837e48f18bd969b8935b",
-    "RELEASE.md": "b9437502e973c8b7e1fc185035e95b1a0a30e82f3b9fbcd79b08fa03240006fc",
-    "zenodo.json": "f50dc7aa06c062e7ab0b477a8ac6796be2dfe80cb1f409e67868469a0a8319c9",
+    "README.md": "bf4d22058e3a39b7d4a12aad14d1bd197fe98457b52da4018fd5ba923e2085e4",
+    "RELEASE.md": "c16f51b38a8b1ef8600bb9105f819db76659c0d5bac39622bbad46a965fcaeea",
     "configs/data_sources.json": "de1947b26458f9f3bc353371cf49bed67d5de6a8eb5609d0543544fc1e92b5c4",
     "configs/project.json": "e4890d9f510997c3c7cd4d5c003811f7d92690f7a1dee0ab3a7c82bc6f505765",
     "configs/requirements-freeze.txt": "ec273d669dab85adf766d79a739a77c525c363373c222b8df40209819ae18d1b",

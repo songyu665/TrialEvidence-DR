@@ -4,8 +4,8 @@ title: "TrialEvidence-DR: Reproducible clinical-trial evidence auditing for drug
 type: software
 repository-code: https://github.com/songyu665/TrialEvidence-DR
 license: MIT
-version: 0.1.0
-date-released: 2026-11-11
+version: 0.1.1
+date-released: 2026-11-12
 authors:
   - name: "TrialEvidence-DR authors"
 keywords:

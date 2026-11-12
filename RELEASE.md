@@ -8,18 +8,16 @@
 4. Verify that the repository is public and that the default branch contains the intended release.
 5. Add the repository URL to the manuscript and release metadata after it exists.
 
-## Zenodo
+## Verification
 
-1. Link the GitHub repository to Zenodo or upload a fixed release archive.
-2. Review `zenodo.json` and replace the collective author placeholder with the final author list if required.
-3. Create a versioned release and archive it through Zenodo.
-4. Obtain the real DOI from Zenodo and add it to `CITATION.cff`, the README, and the manuscript.
-5. Test the public download and reproduction instructions in a clean environment.
+1. Confirm that the public default branch and version tag contain the intended source.
+2. Test the public source archive and reproduction instructions.
+3. Keep raw-data archives, credentials, internal logs, and private session files out of the repository.
 
 ## Current status
 
 - MIT license: published
 - GitHub repository: https://github.com/songyu665/TrialEvidence-DR
-- Version tag and GitHub Release: `v0.1.0`
-- Zenodo archive and DOI: pending
+- Version tag and GitHub Release: `v0.1.1`
+- Code availability record: GitHub repository, Release, and commit hash; no external archive DOI is claimed
 - Public source upload: completed

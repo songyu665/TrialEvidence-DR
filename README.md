@@ -4,6 +4,8 @@ Reproducible code for auditing clinical-trial evidence labels, drug–disease ma
 
 Public repository: https://github.com/songyu665/TrialEvidence-DR
 
+Current source release: https://github.com/songyu665/TrialEvidence-DR/releases/tag/v0.1.1
+
 ## Requirements
 
 - Python 3.12
